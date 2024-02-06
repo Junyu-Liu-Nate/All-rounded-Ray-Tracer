@@ -1,0 +1,187 @@
+{
+  "name": "FootballPlayerKickingBall",
+  "globalData": {
+    "ambientCoeff": 0.5,
+    "diffuseCoeff": 0.5,
+    "specularCoeff": 0.5,
+    "transparentCoeff": 0
+  },
+  "cameraData": {
+    "position": [-2, 5, 8],
+    "up": [0, 1, 0],
+    "heightAngle": 45,
+    "focus": [0, 1, 0]
+  },
+  "groups": [
+    {
+      "lights": [
+        {
+          "type": "directional",
+          "color": [1, 1, 1],
+          "direction": [-1, -1, -1]
+        }
+      ]
+    },
+    {
+      "translate": [0, 2, 0],
+      "scale": [1, 1.5, 0.5],
+      "primitives": [
+        {
+          "type": "cube",
+          "ambient": [0, 0, 1],
+          "diffuse": [0, 0, 1],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [0, 3.5, 0],
+      "scale": [0.7, 0.7, 0.7],
+      "primitives": [
+        {
+          "type": "sphere",
+          "ambient": [0.78, 0.57, 0.44],
+          "diffuse": [0.78, 0.57, 0.44],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [-0.8, 2.5, 0],
+      "rotate": [1, 0, 0, 150],
+      "scale": [0.3, 1, 0.3],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0, 0, 1],
+          "diffuse": [0, 0, 1],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [0.8, 2.5, 0],
+      "rotate": [1, 0, 0, 30],
+      "scale": [0.3, 1, 0.3],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0, 0, 1],
+          "diffuse": [0, 0, 1],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [-0.5, 0.5, 0.5],
+      "rotate": [1, 0, 0, -45],
+      "scale": [0.4, 1.5, 0.4],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0.2, 0.7, 0.2],
+          "diffuse": [0.23, 0.99, 0.33],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [0.5, 0.5, 0],
+      "scale": [0.4, 1.5, 0.4],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0.2, 0.7, 0.2],
+          "diffuse": [0.23, 0.99, 0.33],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [-1, -0.5, 1],
+      "scale": [0.8, 0.8, 0.8],
+      "primitives": [
+        {
+          "type": "sphere",
+          "ambient": [1, 1, 1],
+          "diffuse": [1, 1, 1],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [0, 3, 0],
+      "scale": [0.3, 0.5, 0.3],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0.78, 0.57, 0.44],
+          "diffuse": [0.78, 0.57, 0.44],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [-0.5, 2.7, 0],
+      "rotate": [0, 0, 1, -90],
+      "scale": [0.3, 0.5, 0.3],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0, 0, 1],
+          "diffuse": [0, 0, 1],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [0.5, 2.7, 0],
+      "rotate": [0, 0, 1, -90],
+      "scale": [0.3, 0.5, 0.3],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0, 0, 1],
+          "diffuse": [0, 0, 1],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [-0.5, 1.3, 0],
+      "scale": [0.4, 0.4, 0.4],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0.9, 0.67, 0.7],
+          "diffuse": [0.99, 0.68, 0.69],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    },
+    {
+      "translate": [0.5, 1.3, 0],
+      "scale": [0.4, 0.4, 0.4],
+      "primitives": [
+        {
+          "type": "cylinder",
+          "ambient": [0.9, 0.67, 0.7],
+          "diffuse": [0.99, 0.68, 0.69],
+          "specular": [1, 1, 1],
+          "shininess": 30
+        }
+      ]
+    }
+  ]
+}
